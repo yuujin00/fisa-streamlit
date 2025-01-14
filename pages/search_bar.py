@@ -25,13 +25,12 @@ if ani:
         st.write("해당 애니메이션을 찾을 수 없습니다.")
 
 
-'''
-search = st.text_input('검색하실 애니메이션을 입력하세요')
 
-for ani in ani_list:
-    if search in ani :
-        img_idx=ani_list.index(ani)
+# search = st.text_input('검색하실 애니메이션을 입력하세요')
 
-if search !='':
-    st.image(img_list[img_idx])
-'''
+# for ani in ani_list:
+#     if search in ani :
+#         img_idx=ani_list.index(ani)
+
+# if search !='':
+#     st.image(img_list[img_idx])
