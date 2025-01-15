@@ -25,7 +25,7 @@ st.download_button("Download file", data)
 url='https://naver.com'
 st.link_button("Go to gallery", url)
 
-st.page_link("pages/app2.py", label="Home")
+st.page_link("pages/2-app2.py", label="Home")
 
 st.data_editor(df)
 
